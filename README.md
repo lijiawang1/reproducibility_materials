@@ -63,7 +63,7 @@ Describe how to use the materials provided to reproduce analyses in the manuscri
 
 Each R code file can be run individually as they contain all the necessary functions required for execution.
 
-Before these running the R files ("M.1 feature.R","M.2 feature.R","M.3 feature.R","M.4 feature.R","Table 1 results.R","Figure 6 results.R"), please ensure that the user specifies the path to the entire folder, currently named "reproducibility_materials". This can be done by modifying the code "setwd("...")" to reflect the correct directory where the "reproducibility_materials" folder is located(if you downloaded from github, the folder name could be "reproducibility_materials-main"). Ensuring that the path is correctly specified will allow the R files to access the necessary files and directories for execution.
+Before these running the R files ("M.1 feature.R","M.2 feature.R","M.3 feature.R","M.4 feature.R","Table 1 results.R","Figure 6 results.R"), please ensure that the user specifies the path to the entire folder, currently named "reproducibility_materials". This can be done by modifying the code "setwd("...")" to reflect the correct directory where the "reproducibility_materials" folder is located. Ensuring that the path is correctly specified will allow the R files to access the necessary files and directories for execution.
 
 The output of each R code file and approximate run-time:
 
