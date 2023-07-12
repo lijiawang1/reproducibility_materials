@@ -1,5 +1,3 @@
-
-
 # Part 1: Data
 
 ## Abstract
@@ -10,9 +8,11 @@ The following datasets are available in the data folder:
 
 1. "patient_meta.rds": This dataset contains sample metadata where each row represents a patient (donor). 
 2. "aggExprs_meta.rds": This dataset represents pseudo-bulk metadata where each row corresponds to a pseudo-cell. 
-3. "aggExprs_scMerge.rds": This dataset consists of a pseudo-bulk matrix where genes are represented as rows and pseudo-cells are represented as columns.
+3. "aggExprs_scMerge.rds": This dataset consists of a pseudo-bulk matrix where genes are represented as rows and pseudo-cells are represented as columns. 
 
 A detailed description of the datasets is available in "README_data" file in the "data" folder.
+
+For GitHub user, In order to fully download the large file "aggExprs_scMerge.rds", the user must clone the repository to their local device.
 
 
 # Part 2: Code
@@ -60,8 +60,10 @@ These packages can be downloaded by install.packages("...") and loaded by librar
 <!--
 Describe how to use the materials provided to reproduce analyses in the manuscript. Additional details can be provided in file(s) accompanying the reproducibility materials. If no workflow is provided, please state this and say why (e.g., if the paper contains no computational work).
 -->
+For GitHub user, In order to fully download the large file "aggExprs_scMerge.rds", the user must clone the repository to their local device.
 
 Each R code file can be run individually as they contain all the necessary functions required for execution.
+
 
 Before these running the R files ("M.1 feature.R","M.2 feature.R","M.3 feature.R","M.4 feature.R","Table 1 results.R","Figure 6 results.R"), please ensure that the user specifies the path to the entire folder, currently named "reproducibility_materials". This can be done by modifying the code "setwd("...")" to reflect the correct directory where the "reproducibility_materials" folder is located. Ensuring that the path is correctly specified will allow the R files to access the necessary files and directories for execution.
 
@@ -92,11 +94,9 @@ The output of each R code file and approximate run-time:
   * "Table 1 results.R": reproduces Table 1. (<3min)
   * "Figure 6 results.R": reproduces Figure 6. (<3min)
   
-  In "Figure 6 results.R", by changing the code "feature_method = "..." ", user can get the half violin plots for the corresponding featurization method. 
+  In "Figure 6 results.R", by changing the code "feature_method = "..." ", the user can get the half violin plots for the corresponding featurization method. 
 The input values that can be used are "m1", "m2", "m3", and "m4", representing the M.1, M.2, M.3, and M.4 featurization methods, respectively. 
 
 
 # Notes 
 More detailed descriptions of data and code are in README_data and README_code in the corresponding folders.
-
-
