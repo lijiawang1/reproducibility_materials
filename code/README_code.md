@@ -2,16 +2,16 @@ The "code" folder contains all the necessary functions to generate the main resu
 
 For the simulation study results in Section 2.4, the R code can be found in the "code/simulation code" folder. The following R files are available:
 
-	* "Figure 2 results.R": reproduces the exact result in Figure 2 (<20min)
-	* "Figure 3 results.R": reproduces the exact result in Figure 3 (~2hr)
-	* "Figure 4 results.R": reproduces the exact result in Figure 4 (~2hr)
-	* "Figure 5 results.R": reproduces the exact result in Figure 5 (~2hr)
+* "Figure 2 results.R": reproduces the exact result in Figure 2 (<20min)
+* "Figure 3 results.R": reproduces the exact result in Figure 3 (~2hr)
+* "Figure 4 results.R": reproduces the exact result in Figure 4 (~2hr)
+* "Figure 5 results.R": reproduces the exact result in Figure 5 (~2hr)
  
 As the last three simulations have a high computational cost, we provide simpler examples (not the exact results in the manuscript) for checking the reproducibility of the process as follows:
 
-	* "Figure 3 quick example (not exact).R": provides a quick example for Figure 3 (<10min)
-	* "Figure 4 quick example (not exact).R": provides a quick example for Figure 4 (<10min)
-	* "Figure 5 quick example (not exact).R": provides a quick example for Figure 5 (<10min)
+* "Figure 3 quick example (not exact).R": provides a quick example for Figure 3 (<10min)
+* "Figure 4 quick example (not exact).R": provides a quick example for Figure 4 (<10min)
+* "Figure 5 quick example (not exact).R": provides a quick example for Figure 5 (<10min)
 
 For the case study results in Section 3, the R code can be found in the "code/featurization code" folder. The following R files are available:
 
@@ -28,8 +28,8 @@ Section 3.1 of the manuscript provides detailed information about the featurizat
 
 The manuscript summarizes the case study results in Table 1 and Figure 6 in Section 3.2. The R code to produce the table and figure are available in the files located at the "code" folder:
 
-	* "Table 1 results.R": reproduces Table 1 as presented in the manuscript. (<3min)
-	* "Figure 6 results.R": reproduces plots in Figure 6 as presented in the manuscript. By change the code 'feature_method = "m1"', user can get the half violin plots for the corresponding featurization method where "mi" stands for featurization method M.i proposed in section 3.1. e.g., "m1", "m2", "m3", "m4". (<3min)
+* "Table 1 results.R": reproduces Table 1 as presented in the manuscript. (<3min)
+* "Figure 6 results.R": reproduces plots in Figure 6 as presented in the manuscript.By change the code 'feature_method = "m1"', user can get the half violin plots for the corresponding featurization method where "mi" stands for featurization method M.i proposed in section 3.1. e.g., "m1", "m2", "m3", "m4". (<3min)
 
 These R code files take the results generated from previous steps, which are stored in the "output" folder, as inputs. By running these files, you can reproduce the results and generate Table 1 and Figure 6 based on the stored outputs. Again, before running these R files, please ensure that the user specifies the path to the entire folder, by modifying the code "setwd("~/Desktop/reproducibility_materials")".
 
