@@ -8,3 +8,4 @@ The dataset used in the case study is integrate from 20 collection of scRNA-seq 
 
 3. "aggExprs_scMerge.rds": This dataset consists of a pseudo-bulk matrix where genes are represented as rows and pseudo-cells are represented as columns. The matrix is obtained by averaging across the samples and cell types of the scMerge batch-corrected matrix. The column names follow the format "rp_id|cell-type", indicating the specific cell type and corresponding patient.
 
+For GitHub users, In order to fully download the large file "aggExprs_scMerge.rds", the user must clone the repository to their local device.
