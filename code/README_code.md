@@ -1,11 +1,13 @@
 The "code" folder contains all the necessary functions to generate the main results presented in Section 2.4 (simulation study) and Section 3 (case study). 
 
 For the simulation study results in Section 2.4, the R code can be found in the "code/simulation code" folder. The following R files are available:
+
 	* "Figure 2 results.R": reproduces the exact result in Figure 2 (<20min)
 	* "Figure 3 results.R": reproduces the exact result in Figure 3 (~2hr)
 	* "Figure 4 results.R": reproduces the exact result in Figure 4 (~2hr)
 	* "Figure 5 results.R": reproduces the exact result in Figure 5 (~2hr)
 As the last three simulations have a high computational cost, we provide simpler examples (not the exact results in the manuscript) for checking the reproducibility of the process as follows:
+
 	* "Figure 3 quick example (not exact).R": provides a quick example for Figure 3 (<10min)
 	* "Figure 4 quick example (not exact).R": provides a quick example for Figure 4 (<10min)
 	* "Figure 5 quick example (not exact).R": provides a quick example for Figure 5 (<10min)
