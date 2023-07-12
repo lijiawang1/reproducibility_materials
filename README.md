@@ -63,7 +63,7 @@ Describe how to use the materials provided to reproduce analyses in the manuscri
 
 Each R code file can be run individually as they contain all the necessary functions required for execution.
 
-Before these running the R files ("M.1 feature.R","M.2 feature.R","M.3 feature.R","M.4 feature.R","Table 1 results.R","Figure 6 results.R"), please ensure that the user specifies the path to the entire folder, currently named "reproducibility_materials". This can be done by modifying the code \texttt{setwd("...")} to reflect the correct directory where the "reproducibility_materials" folder is located. Ensuring that the path is correctly specified will allow the R files to access the necessary files and directories for execution.
+Before these running the R files ("M.1 feature.R","M.2 feature.R","M.3 feature.R","M.4 feature.R","Table 1 results.R","Figure 6 results.R"), please ensure that the user specifies the path to the entire folder, currently named "reproducibility_materials". This can be done by modifying the code "setwd("...")" to reflect the correct directory where the "reproducibility_materials" folder is located. Ensuring that the path is correctly specified will allow the R files to access the necessary files and directories for execution.
 
 The output of each R code file and approximate run-time:
 
@@ -92,7 +92,7 @@ The output of each R code file and approximate run-time:
   * "Table 1 results.R": reproduces Table 1. (<3min)
   * "Figure 6 results.R": reproduces Figure 6. (<3min)
   
-  In "Figure 6 results.R", by change the code \texttt{feature\_method $= ``..."$}, user can get the half violin plots for the corresponding featurization method. 
+  In "Figure 6 results.R", by changing the code "feature\_method $= ``..."$", user can get the half violin plots for the corresponding featurization method. 
 The input values that can be used are "m1", "m2", "m3", and "m4", representing the M.1, M.2, M.3, and M.4 featurization methods, respectively. 
 
 
