@@ -52,7 +52,7 @@ readr 2.1.3;
 resample 0.6;
 stats 4.2.2;
 
-These packages can be downloaded by \texttt{install.packages("...")} and loaded by \texttt{library("...")}.
+These packages can be downloaded by install.packages("...") and loaded by library("...").
 
 
 ### Instructions
@@ -92,7 +92,7 @@ The output of each R code file and approximate run-time:
   * "Table 1 results.R": reproduces Table 1. (<3min)
   * "Figure 6 results.R": reproduces Figure 6. (<3min)
   
-  In "Figure 6 results.R", by changing the code "feature\_method $= ``..."$", user can get the half violin plots for the corresponding featurization method. 
+  In "Figure 6 results.R", by changing the code "feature_method = "..." ", user can get the half violin plots for the corresponding featurization method. 
 The input values that can be used are "m1", "m2", "m3", and "m4", representing the M.1, M.2, M.3, and M.4 featurization methods, respectively. 
 
 
