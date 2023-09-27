@@ -25,7 +25,7 @@ The code includes all the functions necessary to generate the major results in S
 
 For the simulation study results in Section 2.4, the R code ("Figure 2 results.R", "Figure 3 results.R", "Figure 4 results.R", "Figure 5 results.R") can be found in the "code/simulation code" folder. As the some simulations have a high computational cost, we provide simpler examples (not the exact results in the manuscript) for checking the reproducibility of the process in the R files ("Figure 3 quick example (not exact).R", "Figure 4 quick example (not exact).R", "Figure 5 quick example (not exact).R") located at the same folder.
 
-For the case study results in Section 3, the R code ("M.1 feature.R","M.2 feature.R","M.3 feature.R","M.4 feature.R") can be found in the "code/featurization code" folder. The manuscript summarizes these case study results in Table 1 and Figure 6 in Section 3.2. We provide the R code ("Table 1 results.R", "Figure 6 results.R") to produce the table and figure.  
+For the case study results in Section 3, the R code ("M.1 feature.R","M.2 feature.R","M.3 feature.R","M.4 feature.R") can be found in the "code/featurization code" folder. The manuscript summarizes these case study results in Table 1 and Figure 6 in Section 3.2. We provide the R code ("Figure 6 results.R") to produce the table and figure.  
 
 A detailed description of the these R code files is available in "README_code" file in the "code" folder.
 
@@ -62,12 +62,7 @@ Describe how to use the materials provided to reproduce analyses in the manuscri
 -->
 For GitHub user, In order to fully download the large file "aggExprs_scMerge.rds", the user must clone the repository to their local device.
 
-Each R code file can be run individually as they contain all the necessary functions required for execution.
-
-
-Before these running the R files ("M.1 feature.R","M.2 feature.R","M.3 feature.R","M.4 feature.R","Table 1 results.R","Figure 6 results.R"), please ensure that the user specifies the path to the entire folder, currently named "reproducibility_materials". This can be done by modifying the code "setwd("...")" to reflect the correct directory where the "reproducibility_materials" folder is located. Ensuring that the path is correctly specified will allow the R files to access the necessary files and directories for execution.
-
-The output of each R code file and approximate run-time:
+Each R code file can be run individually as they contain all the necessary functions required for execution. The output of each R code file and approximate run-time:
 
   i.) Located at "code/simulation code",
 
@@ -91,7 +86,6 @@ The output of each R code file and approximate run-time:
 
   iii.) Located at "code",
   
-  * "Table 1 results.R": reproduces Table 1. (<3min)
   * "Figure 6 results.R": reproduces Figure 6. (<3min)
   
   In "Figure 6 results.R", by changing the code "feature_method = "..." ", the user can get the half violin plots for the corresponding featurization method. 
