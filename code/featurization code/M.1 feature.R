@@ -6,7 +6,7 @@ library(stats)
 library(e1071)
 
 
-#get path to the root directory
+#get path to the folder "reproducibility_materials"
 path1 = getwd()
 check_path = unlist(strsplit(path1, split = "/"))
 while (check_path[length(check_path)] != "reproducibility_materials"){
