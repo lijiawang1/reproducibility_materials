@@ -3,10 +3,17 @@ library(readr)
 library(resample)
 library(randomForest)
 library(e1071)
-setwd("~/Desktop/reproducibility_materials") #the path of the folder
 
 
+#get path to the root directory
+path1 = getwd()
+check_path = unlist(strsplit(path1, split = "/"))
+while (check_path[length(check_path)] != "reproducibility_materials"){
+  path1 = dirname(path1)  
+  check_path = unlist(strsplit(path1, split = "/"))
+}
 
+setwd(path1) #the path of the folder
 
 #################
 #h-np threshold selection function

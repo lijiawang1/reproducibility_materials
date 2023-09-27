@@ -2,7 +2,17 @@
 #generate the half violin plots in Figure 6 in Section 3.2
 library(ggplot2)
 library(gridExtra)
-setwd("~/Desktop/reproducibility_materials") #the path of the folder
+
+
+#get path to the root directory
+path1 = getwd()
+check_path = unlist(strsplit(path1, split = "/"))
+while (check_path[length(check_path)] != "reproducibility_materials"){
+  path1 = dirname(path1)  
+  check_path = unlist(strsplit(path1, split = "/"))
+}
+
+setwd(path1) #the path of the folder
 
 #################################
 #set up the featurization method that you want to investigate
@@ -191,6 +201,5 @@ p3 <-ggplot(data = plot_data_4, aes( type , errors, fill = method)) + geom_split
 
 
 grid.arrange(p1,p2,p3) #generate the half violin plots for the corresponding featurization method in Figure 6 in section 3.2
-
 
 
