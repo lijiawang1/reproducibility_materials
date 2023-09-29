@@ -25,7 +25,7 @@ The code includes all the functions necessary to generate the major results in S
 
 For the simulation study results in Section 2.4, the R code ("Figure 2 results.R", "Figure 3 results.R", "Figure 4 results.R", "Figure 5 results.R") can be found in the "code/simulation code" folder. As the some simulations have a high computational cost, we provide simpler examples (not the exact results in the manuscript) for checking the reproducibility of the process in the R files ("Figure 3 quick example (not exact).R", "Figure 4 quick example (not exact).R", "Figure 5 quick example (not exact).R") located at the same folder.
 
-For the case study results in Section 3, the R code ("M.1 feature.R","M.2 feature.R","M.3 feature.R","M.4 feature.R") can be found in the "code/featurization code" folder. The manuscript summarizes these case study results in Figure 6 in Section 3.2 and Table S7 in Supplementary Section D.1. We provide the R code ("Figure 6 results.R") to produce the table and figure.  
+For the case study results in Section 3, the R code ("M.1 feature.R","M.2 feature.R","M.3 feature.R","M.4 feature.R") can be found in the "code/featurization code" folder. The manuscript summarizes these case study results in Figure 6 in Section 3.2 and Table S7 in Supplementary Section D.1. We provide the R code ("Figure 6 results.R", "Table S7 results.R") to produce the table and figure.  
 
 A detailed description of the these R code files is available in "README_code" file in the "code" folder.
 
