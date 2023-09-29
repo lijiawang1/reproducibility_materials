@@ -30,6 +30,6 @@ The manuscript summarizes the case study results of Figure 6 in Section 3.2 and 
 * "Figure 6 results.R": reproduces plots in Figure 6 as presented in the manuscript.By change the code 'feature_method = "m1"', user can get the half violin plots for the corresponding featurization method where "mi" stands for featurization method M.i proposed in section 3.1. e.g., "m1", "m2", "m3", "m4". (<3min)
 * "Table S7 results.R": reproduces Table S7 in Supplementary Section D.1 as presented in the manuscript. (<3min)
 
-These R code files take the results generated from previous steps, which are stored in the "output" folder, as inputs. By running these files, you can reproduce the results and generate Table 1 and Figure 6 based on the stored outputs. 
+These R code files take the results generated from previous steps, which are stored in the "output" folder, as inputs. By running these files, you can reproduce the results and generate Table S7 and Figure 6 based on the stored outputs. 
 
 
