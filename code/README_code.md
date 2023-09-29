@@ -25,9 +25,10 @@ For the case study results in Section 3, the R code can be found in the "code/fe
 
 Section 3.1 of the manuscript provides detailed information about the featurization methods. The necessary datasets ("patient_meta.rds", "aggExprs_meta.rds", "aggExprs_scMerge.rds") required by these R files are located in the "data" folder. To facilitate understanding, we have included a "README_data" file in the "data" folder, which explains the format and meaning of these datasets in more detail. You can refer to the "README_data" file for further clarification on the dataset structure and content. 
 
-The manuscript summarizes the case study results of Figure 6 in Section 3.2. The R code to produce the table and figure are available in the files located at the "code" folder:
+The manuscript summarizes the case study results of Figure 6 in Section 3.2 and Table S7 in Supplementary Section D.1. The R code to produce the table and figure are available in the files located at the "code" folder:
 
 * "Figure 6 results.R": reproduces plots in Figure 6 as presented in the manuscript.By change the code 'feature_method = "m1"', user can get the half violin plots for the corresponding featurization method where "mi" stands for featurization method M.i proposed in section 3.1. e.g., "m1", "m2", "m3", "m4". (<3min)
+* "Table S7 results.R": reproduces Table S7 in Supplementary Section D.1 as presented in the manuscript. (<3min)
 
 These R code files take the results generated from previous steps, which are stored in the "output" folder, as inputs. By running these files, you can reproduce the results and generate Table 1 and Figure 6 based on the stored outputs. 
 

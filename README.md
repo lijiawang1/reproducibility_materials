@@ -86,7 +86,8 @@ Each R code file can be run individually as they contain all the necessary funct
 
   iii.) Located at "code",
   
-  * "Figure 6 results.R": reproduces Figure 6. (<3min)
+  * "Figure 6 results.R": reproduces Figure 6 in Section 3.2. (<3min)
+  * "Table S7 results.R": reproduces Table S7 in Supplementary Section D.1. (<3min)
   
   In "Figure 6 results.R", by changing the code "feature_method = "..." ", the user can get the half violin plots for the corresponding featurization method. 
 The input values that can be used are "m1", "m2", "m3", and "m4", representing the M.1, M.2, M.3, and M.4 featurization methods, respectively. 
